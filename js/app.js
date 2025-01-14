@@ -9,8 +9,7 @@ const filter = document.getElementById("filter");
 
 const displayArticle = document.getElementById("team-cards")
 const allPlayers = document.querySelectorAll(".card");
-
-console.log(allPlayers.item(0).querySelector("p:last-of-type").innerText.split(": ")[1]);
+const allPlayersNodes = displayArticle.childNodes;
 
 team.innerText = " Argentina";
 sportType.innerText = " Football";
