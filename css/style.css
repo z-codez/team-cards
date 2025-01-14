@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  color: #ffffff;
+  background-color: #0A0A23;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header#header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+header#header ul li {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+main > label {
+  font-size: 1.3rem;
+}
+
+article#team-cards {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: #F5F6F7;
+  color: black;
+  width: 20rem;
+  border-radius: 0.625rem;
+}
+
+.card p, .card h2 {
+  margin: 0;
+}
+
+
+@media (max-width: 48rem) {
+  header#header ul {
+    flex-direction: column;
+  }
+}
