@@ -8,20 +8,17 @@ body {
   background-color: #0A0A23;
 }
 
-header h1 {
+header {
   text-align: center;
 }
 
 header#header ul {
   list-style: none;
+  padding-inline-start: 0;
   display: flex;
   justify-content: space-around;
   align-self: center;
   font-size: 1.3rem;
-}
-
-header#header ul li {
-  text-align: center;
 }
 
 main {
